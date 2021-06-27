@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year 2015"
+        android:textSize="30sp"
+
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#03DAC6"
+        android:onClick="act2015"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year 2016"
+        android:textSize="30sp"
+
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#B00020"
+        android:onClick="act2016"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year 2017"
+        android:textSize="30sp"
+
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#FFDE03"
+        android:onClick="act2017"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year 2018"
+        android:textSize="30sp"
+
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#FF3D00"
+        android:onClick="act2018"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year 2019"
+        android:textSize="30sp"
+
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#6A1B9A"
+        android:onClick="act2019"
+        />
+</LinearLayout>
